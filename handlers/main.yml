@@ -2,5 +2,4 @@
 - name: restart httpd
   service:
     name: httpd
-    enable: true
     state: restarted
